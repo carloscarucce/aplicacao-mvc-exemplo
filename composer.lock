@@ -4,8 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "812661bad7ceba0bd5af98006351b8f7",
-    "packages": [],
+    "content-hash": "2f900513b1c405589db215ac8271f085",
+    "packages": [
+        {
+            "name": "carloscarucce/pdo-crud-functions",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/carloscarucce/pdo-crud-functions.git",
+                "reference": "d46d4b6a35cfc7171ccc41302e44775cd16b2d45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/carloscarucce/pdo-crud-functions/zipball/d46d4b6a35cfc7171ccc41302e44775cd16b2d45",
+                "reference": "d46d4b6a35cfc7171ccc41302e44775cd16b2d45",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/pdo_delete_row.php",
+                    "src/pdo_insert_row.php",
+                    "src/pdo_select_query.php",
+                    "src/pdo_update_row.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Provides functions for common tasks using PDO",
+            "support": {
+                "issues": "https://github.com/carloscarucce/pdo-crud-functions/issues",
+                "source": "https://github.com/carloscarucce/pdo-crud-functions/tree/v1.0"
+            },
+            "time": "2022-02-09T20:22:08+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",

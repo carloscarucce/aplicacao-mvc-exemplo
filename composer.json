@@ -9,6 +9,7 @@
         }
     },
     "require": {
-        "php": ">=8"
+        "php": ">=8",
+        "carloscarucce/pdo-crud-functions": "^1.0"
     }
 }
