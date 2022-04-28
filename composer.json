@@ -1,0 +1,14 @@
+{
+    "name": "curso/aplicacao-mvc-exemplo",
+    "description": "Exemplo de aplicação mvc com php",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Curso\\AplicacaoMvcExemplo\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8"
+    }
+}
