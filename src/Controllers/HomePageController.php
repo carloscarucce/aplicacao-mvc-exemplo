@@ -9,10 +9,6 @@ class HomePageController extends Controller
 {
     public function index()
     {
-        $dados = [
-            'usuarios' => UsuarioModel::all()
-        ];
 
-        $this->view('index', $dados);
     }
 }
